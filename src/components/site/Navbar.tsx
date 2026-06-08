@@ -37,7 +37,7 @@ export function Navbar() {
             <li key={l.href}>
               <Link
                 to={l.href}
-                className="group relative text-[11px] font-medium tracking-[0.22em] text-muted-foreground transition-colors duration-300 hover:text-foreground"
+                className="group relative text-[12px] font-medium tracking-[0.12em] text-muted-foreground transition-colors duration-300 hover:text-foreground"
               >
                 {l.label}
                 <span className="absolute -bottom-1 left-0 h-px w-0 bg-foreground transition-all duration-500 group-hover:w-full" />
